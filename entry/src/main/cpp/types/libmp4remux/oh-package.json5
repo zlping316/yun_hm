@@ -1,0 +1,6 @@
+{
+  "name": "libmp4remux.so",
+  "types": "./Index.d.ts",
+  "version": "1.0.0",
+  "description": "System media API based TS to MP4 remuxer."
+}

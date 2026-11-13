@@ -1,0 +1,36 @@
+{
+  "color": [
+    {
+      "name": "start_window_background",
+      "value": "#15191D"
+    },
+    {
+      "name": "page_background",
+      "value": "#15191D"
+    },
+    {
+      "name": "surface",
+      "value": "#20262B"
+    },
+    {
+      "name": "text_primary",
+      "value": "#F4F7F9"
+    },
+    {
+      "name": "text_secondary",
+      "value": "#AAB4BD"
+    },
+    {
+      "name": "accent",
+      "value": "#52C7D1"
+    },
+    {
+      "name": "accent_secondary",
+      "value": "#FF7A89"
+    },
+    {
+      "name": "divider",
+      "value": "#384149"
+    }
+  ]
+}

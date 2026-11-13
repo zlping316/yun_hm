@@ -1,0 +1,52 @@
+{
+  "color": [
+    {
+      "name": "start_window_background",
+      "value": "#F4F6F8"
+    },
+    {
+      "name": "page_background",
+      "value": "#F4F6F8"
+    },
+    {
+      "name": "surface",
+      "value": "#FFFFFF"
+    },
+    {
+      "name": "text_primary",
+      "value": "#17202A"
+    },
+    {
+      "name": "text_secondary",
+      "value": "#5F6B76"
+    },
+    {
+      "name": "accent",
+      "value": "#087E8B"
+    },
+    {
+      "name": "accent_secondary",
+      "value": "#D1495B"
+    },
+    {
+      "name": "divider",
+      "value": "#DDE3E8"
+    },
+    {
+      "name": "android_link_blue",
+      "value": "#0000FF"
+    },
+    {
+      "name": "android_valid",
+      "value": "#808080"
+    },
+    {
+      "name": "android_invalid",
+      "value": "#FA8072"
+    },
+    {
+      "name": "android_border",
+      "value": "#000000"
+    }
+  ]
+}

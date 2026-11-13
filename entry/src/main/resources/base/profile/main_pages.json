@@ -1,0 +1,11 @@
+{
+  "src": [
+    "pages/Index",
+    "pages/AliyunDrivePage",
+    "pages/QuarkDrivePage",
+    "pages/SearchPage",
+    "pages/WebLoginPage",
+    "pages/SyncPage",
+    "pages/SettingsPage"
+  ]
+}

@@ -1,0 +1,31 @@
+import { AppSettings, Credentials } from './AppSettings';
+import { CloudProviderType } from '../model/AppModels';
+
+export const LEGACY_CREDENTIALS: Credentials = {
+  aliyunAccessToken: '',
+  aliyunLockToken: 'eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI1NTRhZDc0ZjY2NDg0Zjk0ODU3YTVhYWRmMjZiOTY5YyIsImN1c3RvbUpzb24iOiJ7XCJjbGllbnRJZFwiOlwiMjVkelgzdmJZcWt0Vnh5WFwiLFwiZG9tYWluSWRcIjpcImJqMjlcIixcInNjb3BlXCI6W1wiRFJJVkUuQUxMXCIsXCJTSEFSRS5BTExcIixcIkZJTEUuQUxMXCIsXCJVU0VSLkFMTFwiLFwiVklFVy5BTExcIixcIlNUT1JBR0UuQUxMXCIsXCJTVE9SQUdFRklMRS5MSVNUXCIsXCJCQVRDSFwiLFwiT0FVVEguQUxMXCIsXCJJTUFHRS5BTExcIixcIklOVklURS5BTExcIixcIkFDQ09VTlQuQUxMXCIsXCJTWU5DTUFQUElORy5MSVNUXCIsXCJTWU5DTUFQUElORy5ERUxFVEVcIl0sXCJyb2xlXCI6XCJ1c2VyXCIsXCJyZWZcIjpcImh0dHBzOi8vd3d3LmFsaXBhbi5jb20vXCIsXCJkZXZpY2VfaWRcIjpcImUyNDY1MjQxZGYzYzRlNmI5ODFlYjVhYzAyMjZiNjdlXCJ9IiwiZXhwIjoxNzI1Nzg2MzM3LCJpYXQiOjE3MjU3NzkwNzd9.bab5GxWrYIrzEudeX3olJ8PI4hZnYe2EkS_zofAWzscV1IQGDKv977b1ndUbYnk2NRm3mJYdfdo91WUn81DObE3Emd-hKq9Ymm3JWIGLree0UNSJ7KehJYoikKbBeZHOWMBMLIHEQtnqxkVdEeyjJcU-LSKaQeljICLggOQfWDI',
+  aliyunRefreshToken: '51c49a31b94b4f48a7c140db2606001e',
+  quarkCookie: '_UP_A4A_11_=wb9631f6ba0a413dbf35c273648e5262; b-user-id=df1af9cf-954e-8b76-bb74-5ad7d22260fe; __sdid=AATpXuxGgtPwMfYJiHPjAjsVqm/4DcfFCz2Mk12FjXhmmvNnPB0mkAxyhrJeDbuK924=; _UP_D_=pc; _UP_30C_6A_=st9c762011avsaxnpmrjaax641gv2dwm; _UP_TS_=sg18834381dabe88d698806a903ad82d152; _UP_E37_B7_=sg18834381dabe88d698806a903ad82d152; _UP_TG_=st9c762011avsaxnpmrjaax641gv2dwm; _UP_335_2B_=1; __pus=861c99869a84a77b7819949240bdec5eAAStPvPTQtSwuAsJq0KHSxFOT0yjN/CS181wUrJiZKgui4YrqA6x5nYBuD1IOdPYwMr60BwlyA9X1nkDvxKklS5I; __kp=23905660-fe2d-11ef-a188-3b83bfcf410b; __kps=AAQjGwuNBur4mudqeV0DBMK0; __ktd=HBzzP15++iXYn6CjvcXcfg==; __uid=AAQjGwuNBur4mudqeV0DBMK0; isg=BH5-Ja9jlebSv8DFXfS7Xym0z5LAv0I5GCuzuSiC6UG8yxulkEuwSFroR5cHczpR; tfstk=gycqJNiQR5m7w4l2jzVNUbWTVrFvd5owACc_SP0tWNq0i5NZQuuNhEescYrZ4uCbm1vT_44KXt40olblqlq81qZbf0riDczshSYOrzmURx1cno2lZyanCrfm_YCZJVhXk5TYMqFTsHtBOcuxk5FXFl8j_70uRrA1n-VgM7q9un_DOBgxoZaDR4AIGDBIwoZgs-2DZ_q87PbmjRforuUTSi4GiUuu2u40jsfgZT43SGfij5YrruUgslcC88yeay2D7Z3LWyCCcdriou5GsjAT3k7bvzUjary4x8qPsrlzu-rnojHdTOzZKXyxx36bmvkKYyiXZsoEomk3Kjjk453SLczEieXUbm3oG8cD59U86xD3if-Fm4nqDjHno36zzY0ja8GHY1yxEmHLQftW9SMIRfeniISLVJUZYSDyqsoh4esTrdc-6xSGQ-48zkTyzuFxUKBLAPqNBOeu9zrBlr6OB-qQzkTx7OBTHt4zAE3A.; __puus=a2a2bd1e328c18fab851e1345dcb2e58AASvdP6dK3yrWXPiU4ttExneC0oOhdmZCHipxnisSWSLVeFIAR9xdojuyFTPKHa2BA2IETZKRusJHFiBnaw4pb9t7bqb/h/NWYgCV6TfvF31lo+JqL7LYPajGvZ95FJVX2SY3TQY8Jy1BKfSWZUdehjNrNoeqmoNh8pUKS/LbVKUHPO24/VwalaciO7nRNcK6KDvd95+djV6inuZdXJSCrtY',
+  uuAuthorization: '26126529d69f933656d0fa9e175b401c'
+};
+
+export const LEGACY_SETTINGS: AppSettings = {
+  defaultProvider: CloudProviderType.QUARK,
+  aliyunDriveId: '754187683',
+  aliyunLockDriveId: '5458245',
+  aliyunLockRootFolderId: '66dcfec794d2c89c209d44baba8f41fae06327d0',
+  aliyunLogFolderId: '66deeae9b68cfa2fd8274a90ac0e430e4834edab',
+  aliyunAddressFolderId: '66deeae22f065ceed1cc4fb1a2713b86459275f0',
+  aliyunShareBackupFolderId: 'de6404a1eceb485091903eaf2c41c643',
+  quarkLogFolderId: '4aa1ed69b54a4583a6539719921e0daf',
+  quarkAddressFolderId: '7aa9a1f4e4c949cf8b0d8b2f0103258d',
+  quarkTransformRootFolderId: 'e1e1c833a1914f998316a78130559b04',
+  quarkBackupFolderId: 'e2d1eca9a6b64f67a258019f9d0db8e3',
+  lanHost: '192.168.31.175',
+  lanPort: 65432,
+  lanTimeoutMs: 2000,
+  hlsConcurrency: 4,
+  downloadConcurrency: 3,
+  uploadConcurrency: 2,
+  autoResumeOnNetwork: false
+};

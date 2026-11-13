@@ -1,0 +1,20 @@
+{
+  "string": [
+    {
+      "name": "module_desc",
+      "value": "云盘分享与同步工具"
+    },
+    {
+      "name": "EntryAbility_desc",
+      "value": "云盘分享与同步工具"
+    },
+    {
+      "name": "EntryAbility_label",
+      "value": "云盘工具"
+    },
+    {
+      "name": "home_subtitle",
+      "value": "分享转存、资源搜索与自动同步"
+    }
+  ]
+}
